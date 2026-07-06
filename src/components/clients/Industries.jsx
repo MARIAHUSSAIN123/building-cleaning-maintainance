@@ -7,41 +7,20 @@ import {
   Hotel,
   Warehouse,
 } from "lucide-react";
-
-const industries = [
-  {
-    icon: <Building2 size={42} />,
-    title: "Corporate Offices",
-    text: "Professional cleaning services for office buildings and corporate spaces.",
-  },
-  {
-    icon: <Hospital size={42} />,
-    title: "Healthcare",
-    text: "Maintaining hygienic environments for hospitals and healthcare facilities.",
-  },
-  {
-    icon: <GraduationCap size={42} />,
-    title: "Education",
-    text: "Reliable cleaning solutions for schools, colleges, and universities.",
-  },
-  {
-    icon: <ShoppingBag size={42} />,
-    title: "Retail",
-    text: "Creating clean and welcoming shopping environments for customers.",
-  },
-  {
-    icon: <Hotel size={42} />,
-    title: "Hospitality",
-    text: "Premium housekeeping and maintenance for hotels and resorts.",
-  },
-  {
-    icon: <Warehouse size={42} />,
-    title: "Industrial",
-    text: "Comprehensive cleaning services for warehouses and industrial facilities.",
-  },
-];
+import { useLanguage } from "../../context/LanguageContext";
 
 export default function Industries() {
+  const { t } = useLanguage();
+
+  const industries = [
+    { icon: <Building2 size={42} />, title: t("industries.i1Title"), text: t("industries.i1Text") },
+    { icon: <Hospital size={42} />, title: t("industries.i2Title"), text: t("industries.i2Text") },
+    { icon: <GraduationCap size={42} />, title: t("industries.i3Title"), text: t("industries.i3Text") },
+    { icon: <ShoppingBag size={42} />, title: t("industries.i4Title"), text: t("industries.i4Text") },
+    { icon: <Hotel size={42} />, title: t("industries.i5Title"), text: t("industries.i5Text") },
+    { icon: <Warehouse size={42} />, title: t("industries.i6Title"), text: t("industries.i6Text") },
+  ];
+
   return (
     <section className="py-24 bg-white">
       <div className="max-w-7xl mx-auto px-6">
@@ -54,16 +33,15 @@ export default function Industries() {
           className="text-center mb-16"
         >
           <p className="text-green-600 font-semibold uppercase tracking-widest">
-            Industries We Serve
+            {t("industries.tag")}
           </p>
 
           <h2 className="text-4xl font-bold text-[#0E2A47] mt-3">
-            Trusted Across Multiple Industries
+            {t("industries.heading")}
           </h2>
 
           <p className="text-gray-600 mt-5 max-w-3xl mx-auto leading-8">
-            Hills Atcham provides reliable cleaning and building maintenance
-            services for organizations of every size across Canada.
+            {t("industries.desc")}
           </p>
         </motion.div>
 

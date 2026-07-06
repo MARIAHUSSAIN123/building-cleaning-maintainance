@@ -1,28 +1,31 @@
 import { motion } from "framer-motion";
 import { Target, Eye, HeartHandshake } from "lucide-react";
-
-const cards = [
-  {
-    icon: Target,
-    title: "Our Mission",
-    desc: "To provide exceptional cleaning and building maintenance services that create healthier, safer, and more productive environments for every client.",
-    color: "from-green to-green-light",
-  },
-  {
-    icon: Eye,
-    title: "Our Vision",
-    desc: "To become Canada's most trusted cleaning and facility maintenance company through innovation, consistency, and customer satisfaction.",
-    color: "from-gold to-yellow-500",
-  },
-  {
-    icon: HeartHandshake,
-    title: "Our Values",
-    desc: "Integrity, professionalism, teamwork, and excellence are the foundation of everything we do.",
-    color: "from-navy to-slate-700",
-  },
-];
+import { useLanguage } from "../../context/LanguageContext";
 
 export default function MissionVision() {
+  const { t } = useLanguage();
+
+  const cards = [
+    {
+      icon: Target,
+      title: t("missionVision.missionTitle"),
+      desc: t("missionVision.missionDesc"),
+      color: "from-green to-green-light",
+    },
+    {
+      icon: Eye,
+      title: t("missionVision.visionTitle"),
+      desc: t("missionVision.visionDesc"),
+      color: "from-gold to-yellow-500",
+    },
+    {
+      icon: HeartHandshake,
+      title: t("missionVision.valuesTitle"),
+      desc: t("missionVision.valuesDesc"),
+      color: "from-navy to-slate-700",
+    },
+  ];
+
   return (
     <section className="py-28 bg-white">
 
@@ -35,17 +38,16 @@ export default function MissionVision() {
           className="text-center mb-20"
         >
           <span className="uppercase tracking-[5px] text-green font-semibold">
-            Our Purpose
+            {t("missionVision.tag")}
           </span>
 
           <h2 className="font-display text-5xl font-black text-navy mt-5">
-            Mission, Vision &
-            <span className="text-gold"> Values</span>
+            {t("missionVision.heading1")}
+            <span className="text-gold"> {t("missionVision.heading2")}</span>
           </h2>
 
           <p className="mt-6 text-gray-600 max-w-3xl mx-auto leading-8">
-            Everything we do is driven by our commitment to quality,
-            trust and long-term partnerships with our clients.
+            {t("missionVision.intro")}
           </p>
         </motion.div>
 

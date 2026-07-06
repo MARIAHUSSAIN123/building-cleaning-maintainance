@@ -1,12 +1,14 @@
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { ArrowRight, Phone } from "lucide-react";
+import { useLanguage } from "../../context/LanguageContext";
 
 export default function CTASection() {
+  const { t } = useLanguage();
+
   return (
     <section className="relative overflow-hidden py-24 bg-gradient-to-r from-[#071D31] via-[#0D2A47] to-[#12395C]">
 
-      {/* Decorative Blobs */}
       <div className="absolute -top-24 -left-24 w-80 h-80 bg-green/20 rounded-full blur-[140px]" />
       <div className="absolute -bottom-24 -right-24 w-80 h-80 bg-yellow-400/20 rounded-full blur-[140px]" />
 
@@ -21,20 +23,18 @@ export default function CTASection() {
         >
 
           <span className="uppercase tracking-[5px] text-green font-semibold">
-            Ready To Get Started?
+            {t("servicesCta.tag")}
           </span>
 
           <h2 className="text-5xl md:text-6xl font-black text-white mt-5 leading-tight">
-            Let's Make Your
+            {t("servicesCta.heading1")}
             <span className="block text-gold mt-2">
-              Workplace Shine
+              {t("servicesCta.heading2")}
             </span>
           </h2>
 
           <p className="text-white/70 max-w-3xl mx-auto mt-8 text-lg leading-9">
-            Whether you need commercial cleaning, residential services,
-            or complete building maintenance, Hills Atcham is ready to
-            deliver reliable, high-quality solutions tailored to your needs.
+            {t("servicesCta.desc")}
           </p>
 
           <div className="flex flex-wrap justify-center gap-5 mt-12">
@@ -43,21 +43,16 @@ export default function CTASection() {
               to="/contact"
               className="group bg-green hover:bg-green-light text-white px-8 py-4 rounded-full font-semibold transition-all duration-300 hover:scale-105 shadow-2xl flex items-center gap-2"
             >
-              Get Free Quote
-
-              <ArrowRight
-                size={20}
-                className="group-hover:translate-x-2 transition"
-              />
+              {t("servicesCta.getFreeQuoteBtn")}
+              <ArrowRight size={20} className="group-hover:translate-x-2 transition" />
             </Link>
 
-            <a
-              href="tel:+14034580219"
+            
+           <a href="tel:+14034580219"
               className="group border border-white/30 backdrop-blur-xl px-8 py-4 rounded-full text-white hover:bg-white hover:text-navy transition-all duration-300 flex items-center gap-3"
             >
               <Phone size={18} />
-
-              Call Now
+              {t("servicesCta.callNowBtn")}
             </a>
 
           </div>

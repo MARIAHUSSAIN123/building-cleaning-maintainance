@@ -5,31 +5,18 @@ import {
   Users,
   Sparkles,
 } from "lucide-react";
-
-const features = [
-  {
-    icon: ShieldCheck,
-    title: "Trusted & Reliable",
-    text: "We build long-term partnerships through honesty, consistency, and dependable service.",
-  },
-  {
-    icon: Clock3,
-    title: "On-Time Delivery",
-    text: "Our professional team always arrives on schedule and completes every task efficiently.",
-  },
-  {
-    icon: Users,
-    title: "Experienced Team",
-    text: "Highly trained cleaning and maintenance specialists delivering outstanding results.",
-  },
-  {
-    icon: Sparkles,
-    title: "Exceptional Quality",
-    text: "Every project is completed with attention to detail and the highest industry standards.",
-  },
-];
+import { useLanguage } from "../../context/LanguageContext";
 
 export default function WhyChooseUs() {
+  const { t } = useLanguage();
+
+  const features = [
+    { icon: ShieldCheck, title: t("clientsWhyChooseUs.f1Title"), text: t("clientsWhyChooseUs.f1Text") },
+    { icon: Clock3, title: t("clientsWhyChooseUs.f2Title"), text: t("clientsWhyChooseUs.f2Text") },
+    { icon: Users, title: t("clientsWhyChooseUs.f3Title"), text: t("clientsWhyChooseUs.f3Text") },
+    { icon: Sparkles, title: t("clientsWhyChooseUs.f4Title"), text: t("clientsWhyChooseUs.f4Text") },
+  ];
+
   return (
     <section className="py-24 bg-gradient-to-b from-white to-slate-100">
       <div className="max-w-7xl mx-auto px-6">
@@ -43,17 +30,15 @@ export default function WhyChooseUs() {
         >
 
           <span className="uppercase tracking-[4px] text-green-600 font-semibold">
-            Why Choose Us
+            {t("clientsWhyChooseUs.tag")}
           </span>
 
           <h2 className="text-4xl md:text-5xl font-black text-[#0E2A47] mt-4">
-            Excellence You Can Trust
+            {t("clientsWhyChooseUs.heading")}
           </h2>
 
           <p className="text-gray-600 mt-5 max-w-3xl mx-auto leading-8">
-            Hills Atcham is committed to delivering reliable cleaning and
-            building maintenance services with professionalism, quality,
-            and customer satisfaction at the heart of everything we do.
+            {t("clientsWhyChooseUs.desc")}
           </p>
 
         </motion.div>
@@ -61,7 +46,6 @@ export default function WhyChooseUs() {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
 
           {features.map((item, index) => {
-
             const Icon = item.icon;
 
             return (

@@ -2,13 +2,7 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import StatsSection from "../components/StatsSection";
 import staffHero from "../assets/staff-hero.jpg";
-
-const services = [
-  { title: "Commercial Cleaning", desc: "Reliable cleaning for offices, retail spaces, and commercial buildings." },
-  { title: "Residential Cleaning", desc: "Thorough, trustworthy cleaning for homes, on a schedule that works for you." },
-  { title: "Building Maintenance", desc: "Preventive and on-demand maintenance to keep properties running smoothly." },
-  { title: "Specialized Cleaning", desc: "Deep cleans, post-construction cleanup, and move-in/move-out services." },
-];
+import { useLanguage } from "../context/LanguageContext";
 
 const fadeUp = {
   hidden: { opacity: 0, y: 20 },
@@ -16,6 +10,15 @@ const fadeUp = {
 };
 
 export default function Home() {
+  const { t } = useLanguage();
+
+  const services = [
+    { title: t("services.commercial"), desc: t("services.commercialDesc") },
+    { title: t("services.residential"), desc: t("services.residentialDesc") },
+    { title: t("services.maintenance"), desc: t("services.maintenanceDesc") },
+    { title: t("services.specialized"), desc: t("services.specializedDesc") },
+  ];
+
   return (
     <div>
       {/* HERO */}
@@ -38,7 +41,7 @@ export default function Home() {
       <span className="w-2.5 h-2.5 rounded-full bg-green animate-pulse"></span>
 
       <p className="uppercase tracking-[4px] text-sm text-white">
-        Trusted Across Canada
+        {t("home.badge")}
       </p>
     </motion.div>
 
@@ -48,16 +51,16 @@ export default function Home() {
       transition={{ duration: 0.8 }}
       className="font-display text-6xl lg:text-7xl font-extrabold leading-[1.05] text-white"
     >
-      Professional
+      {t("home.heroLine1")}
 
       <span className="block text-gold">
-        Cleaning &
+        {t("home.heroLine2")}
       </span>
 
-      Building Maintenance
+      {t("home.heroLine3")}
 
       <span className="block">
-        Solutions
+        {t("home.heroLine4")}
       </span>
     </motion.h1>
 
@@ -67,8 +70,7 @@ export default function Home() {
       transition={{ delay: .3 }}
       className="mt-8 text-xl text-white/75 leading-8 max-w-xl"
     >
-      Delivering dependable commercial cleaning and building maintenance
-      services with unmatched professionalism, safety, and quality.
+      {t("home.heroDesc")}
     </motion.p>
 
     <motion.div
@@ -81,23 +83,15 @@ export default function Home() {
         to="/contact"
         className="bg-green hover:bg-green-light text-white px-8 py-4 rounded-full font-semibold transition-all duration-300 hover:scale-105 shadow-2xl"
       >
-        Get Free Quote
+        {t("home.getFreeQuote")}
       </Link>
 
       <Link
         to="/services"
         className="border border-white/30 backdrop-blur-lg px-8 py-4 rounded-full text-white hover:bg-white hover:text-navy transition-all duration-300"
       >
-        Explore Services
+        {t("home.exploreServices")}
       </Link>
-    </motion.div>
-
-    <motion.div
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      transition={{ delay: .8 }}
-      className="flex gap-12 mt-16 flex-wrap"
-    >
     </motion.div>
 
   </div>
@@ -114,17 +108,15 @@ export default function Home() {
         transition={{ duration: 0.5 }}
         className="max-w-6xl mx-auto px-6 py-20"
       >
-        <p className="font-mono text-xs tracking-[0.25em] uppercase text-green mb-3">Who We Are</p>
+        <p className="font-mono text-xs tracking-[0.25em] uppercase text-green mb-3">{t("home.whoWeAre")}</p>
         <h2 className="font-display font-700 text-2xl md:text-3xl text-navy max-w-2xl">
-          Dependable cleaning and maintenance, built on trust and consistency.
+          {t("home.aboutTitle")}
         </h2>
         <p className="text-ink/70 mt-4 max-w-2xl leading-relaxed">
-          Hills Atcham brings together experienced teams and clear standards to
-          deliver cleaning and maintenance services that clients can rely on,
-          visit after visit.
+          {t("home.aboutDesc")}
         </p>
         <Link to="/about" className="inline-block mt-5 text-green font-semibold text-sm hover:underline">
-          Learn more about us →
+          {t("home.learnMore")} →
         </Link>
       </motion.section>
 
@@ -138,7 +130,7 @@ export default function Home() {
             viewport={{ once: true }}
             className="font-mono text-xs tracking-[0.25em] uppercase text-green mb-3"
           >
-            What We Do
+            {t("home.whatWeDo")}
           </motion.p>
           <motion.h2
             variants={fadeUp}
@@ -148,7 +140,7 @@ export default function Home() {
             transition={{ delay: 0.1 }}
             className="font-display font-700 text-2xl md:text-3xl text-navy max-w-xl mb-10"
           >
-            Our Services
+            {t("home.ourServices")}
           </motion.h2>
 
           <div className="grid sm:grid-cols-2 gap-6">
@@ -191,7 +183,7 @@ export default function Home() {
           </div>
 
           <Link to="/services" className="inline-flex items-center gap-1.5 mt-8 text-green font-semibold text-sm hover:gap-2.5 transition-all duration-300">
-            View all services <span>→</span>
+            {t("home.viewAllServices")} <span>→</span>
           </Link>
         </div>
       </section>
@@ -205,31 +197,31 @@ export default function Home() {
         transition={{ duration: 0.5 }}
         className="max-w-6xl mx-auto px-6 py-20 text-center"
       >
-        <p className="font-mono text-xs tracking-[0.25em] uppercase text-green mb-3">Our Network</p>
+        <p className="font-mono text-xs tracking-[0.25em] uppercase text-green mb-3">{t("home.ourNetwork")}</p>
         <h2 className="font-display font-700 text-2xl md:text-3xl text-navy mb-4">
-          Proud to work with trusted clients and partners.
+          {t("home.networkTitle")}
         </h2>
         <p className="text-ink/65 max-w-xl mx-auto mb-6">
-          See the businesses and partners we've had the privilege of working with.
+          {t("home.networkDesc")}
         </p>
         <Link
           to="/clients"
           className="inline-block bg-navy text-cream px-6 py-3 rounded-full text-sm font-semibold hover:bg-green transition-colors duration-300"
         >
-          View Clients & Partners
+          {t("home.viewClients")}
         </Link>
       </motion.section>
 
       {/* CONTACT TEASER */}
       <section className="bg-white border-t border-mist">
         <div className="max-w-6xl mx-auto px-6 py-16 text-center">
-          <h2 className="font-display font-700 text-2xl md:text-3xl text-navy mb-3">Get in Touch</h2>
-          <p className="text-ink/65 mb-6">Have a question or want to know more? We'd love to hear from you.</p>
+          <h2 className="font-display font-700 text-2xl md:text-3xl text-navy mb-3">{t("home.getInTouch")}</h2>
+          <p className="text-ink/65 mb-6">{t("home.getInTouchDesc")}</p>
           <Link
             to="/contact"
             className="inline-block bg-gold text-navy px-6 py-3 rounded-full text-sm font-semibold hover:opacity-90 transition-opacity duration-300"
           >
-            Contact Us
+            {t("home.contactUs")}
           </Link>
         </div>
       </section>

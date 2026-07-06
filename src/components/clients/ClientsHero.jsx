@@ -1,8 +1,11 @@
 import "./ClientsHero.css";
 import { ArrowRight } from "lucide-react";
 import hero from "../../assets/clean4.jpg";
+import { useLanguage } from "../../context/LanguageContext";
 
 export default function ClientsHero() {
+  const { t } = useLanguage();
+
   return (
     <section className="clientsHero">
       <img src={hero} alt="" className="heroImage" />
@@ -10,21 +13,20 @@ export default function ClientsHero() {
       <div className="heroOverlay"></div>
 
       <div className="heroContent">
-        <span>Trusted Since 2008</span>
+        <span>{t("clientsHero.badge")}</span>
 
         <h1>
-          Clients &
+          {t("clientsHero.heading")}
           <br />
-          Partners
+          {t("clientsHero.headingLine2")}
         </h1>
 
         <p>
-          Building long-term partnerships through exceptional cleaning,
-          maintenance, and facility management solutions.
+          {t("clientsHero.desc")}
         </p>
 
         <button>
-          Become a Partner
+          {t("clientsHero.becomePartnerBtn")}
           <ArrowRight size={18} />
         </button>
       </div>

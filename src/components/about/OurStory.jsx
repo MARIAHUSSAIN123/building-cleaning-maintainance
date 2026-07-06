@@ -1,17 +1,20 @@
 import { motion } from "framer-motion";
 import { CheckCircle2 } from "lucide-react";
+import { useLanguage } from "../../context/LanguageContext";
 
 import story1 from "../../assets/clean1.jpg";
 import story2 from "../../assets/clean2.jpg";
 
-const points = [
-  "Professional Cleaning Experts",
-  "Eco-Friendly Cleaning Solutions",
-  "Commercial & Residential Services",
-  "Reliable Building Maintenance",
-];
-
 export default function OurStory() {
+  const { t } = useLanguage();
+
+  const points = [
+    t("ourStory.point1"),
+    t("ourStory.point2"),
+    t("ourStory.point3"),
+    t("ourStory.point4"),
+  ];
+
   return (
     <section className="py-28 bg-white overflow-hidden">
       <div className="max-w-7xl mx-auto px-6">
@@ -49,7 +52,7 @@ export default function OurStory() {
               </h2>
 
               <p className="mt-2 font-semibold text-navy">
-                Years Experience
+                {t("ourStory.yearsLabel")}
               </p>
 
             </div>
@@ -66,35 +69,24 @@ export default function OurStory() {
           >
 
             <span className="uppercase tracking-[5px] text-green font-semibold">
-              Our Story
+              {t("ourStory.tag")}
             </span>
 
             <h2 className="font-display text-5xl lg:text-6xl font-black text-navy mt-5 leading-tight">
 
-              Building Cleaner
+              {t("ourStory.heading1")}
               <span className="block text-gold">
-                Spaces Since Day One
+                {t("ourStory.heading2")}
               </span>
 
             </h2>
 
             <p className="mt-8 text-gray-600 leading-9">
-
-              Hills Atcham was founded with one clear mission —
-              to provide dependable cleaning and building maintenance
-              services that businesses and homeowners can trust.
-
-              We believe every clean environment creates healthier,
-              happier and more productive spaces for everyone.
-
+              {t("ourStory.para1")}
             </p>
 
             <p className="mt-6 text-gray-600 leading-9">
-
-              Our experienced team combines modern equipment,
-              eco-friendly practices and attention to detail to
-              deliver exceptional cleaning results every single time.
-
+              {t("ourStory.para2")}
             </p>
 
             {/* Features */}
@@ -126,9 +118,7 @@ export default function OurStory() {
             {/* Button */}
 
             <button className="mt-12 bg-green hover:bg-green-light text-white px-8 py-4 rounded-full font-semibold transition-all duration-300 hover:scale-105 shadow-xl">
-
-              Learn More
-
+              {t("ourStory.learnMoreBtn")}
             </button>
 
           </motion.div>

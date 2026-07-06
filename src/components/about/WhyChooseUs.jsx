@@ -5,33 +5,20 @@ import {
   Clock3,
   BadgeCheck,
 } from "lucide-react";
+import { useLanguage } from "../../context/LanguageContext";
 
 import teamImg from "../../assets/clean3.jpg";
 
-const features = [
-  {
-    icon: ShieldCheck,
-    title: "Trusted Professionals",
-    text: "Experienced, trained and fully committed to delivering exceptional cleaning services.",
-  },
-  {
-    icon: Leaf,
-    title: "Eco-Friendly Products",
-    text: "Safe and environmentally friendly cleaning products for healthier spaces.",
-  },
-  {
-    icon: Clock3,
-    title: "Always On Time",
-    text: "Reliable scheduling and prompt service you can always count on.",
-  },
-  {
-    icon: BadgeCheck,
-    title: "Quality Guaranteed",
-    text: "Every project is completed with precision and attention to every detail.",
-  },
-];
-
 export default function WhyChooseUs() {
+  const { t } = useLanguage();
+
+  const features = [
+    { icon: ShieldCheck, title: t("whyChooseUs.feature1Title"), text: t("whyChooseUs.feature1Text") },
+    { icon: Leaf, title: t("whyChooseUs.feature2Title"), text: t("whyChooseUs.feature2Text") },
+    { icon: Clock3, title: t("whyChooseUs.feature3Title"), text: t("whyChooseUs.feature3Text") },
+    { icon: BadgeCheck, title: t("whyChooseUs.feature4Title"), text: t("whyChooseUs.feature4Text") },
+  ];
+
   return (
     <section className="py-28 bg-[#f8fafb] overflow-hidden">
 
@@ -49,20 +36,18 @@ export default function WhyChooseUs() {
           >
 
             <span className="uppercase tracking-[5px] text-green font-semibold">
-              Why Choose Us
+              {t("whyChooseUs.tag")}
             </span>
 
             <h2 className="font-display text-5xl font-black text-navy mt-5 leading-tight">
-              We Deliver
+              {t("whyChooseUs.heading1")}
               <span className="block text-gold">
-                More Than Cleaning
+                {t("whyChooseUs.heading2")}
               </span>
             </h2>
 
             <p className="mt-8 text-gray-600 leading-8">
-              Hills Atcham combines skilled professionals,
-              premium equipment and customer-first service to
-              create clean, healthy and welcoming environments.
+              {t("whyChooseUs.intro")}
             </p>
 
             <div className="grid sm:grid-cols-2 gap-6 mt-12">
@@ -149,7 +134,7 @@ export default function WhyChooseUs() {
               </h2>
 
               <p className="text-navy font-semibold mt-2">
-                Client Satisfaction
+                {t("whyChooseUs.satisfactionLabel")}
               </p>
 
             </motion.div>

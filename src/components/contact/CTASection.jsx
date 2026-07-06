@@ -1,16 +1,17 @@
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { ArrowRight, PhoneCall } from "lucide-react";
+import { useLanguage } from "../../context/LanguageContext";
 
 export default function CTASection() {
+  const { t } = useLanguage();
+
   return (
     <section className="relative overflow-hidden py-24 bg-gradient-to-r from-[#081E31] via-[#0D2A47] to-[#12395C]">
 
-      {/* Background Glow */}
       <div className="absolute -top-32 -left-32 w-96 h-96 bg-green/20 rounded-full blur-[150px]" />
       <div className="absolute -bottom-32 -right-32 w-96 h-96 bg-yellow-400/20 rounded-full blur-[150px]" />
 
-      {/* Pattern */}
       <div className="absolute inset-0 opacity-10 bg-[radial-gradient(circle_at_center,_white_1px,_transparent_1px)] bg-[length:25px_25px]" />
 
       <div className="relative z-10 max-w-6xl mx-auto px-6">
@@ -24,25 +25,18 @@ export default function CTASection() {
         >
 
           <span className="uppercase tracking-[5px] text-green font-semibold">
-            Get Started Today
+            {t("contactCta.tag")}
           </span>
 
           <h2 className="text-5xl md:text-6xl font-black text-white mt-5 leading-tight">
-
-            Ready For A
+            {t("contactCta.heading1")}
             <span className="block text-gold mt-2">
-              Cleaner Tomorrow?
+              {t("contactCta.heading2")}
             </span>
-
           </h2>
 
           <p className="text-white/75 text-lg leading-9 max-w-3xl mx-auto mt-8">
-
-            Whether you need commercial cleaning, residential cleaning,
-            or complete building maintenance, Hills Atcham is here to
-            provide dependable, professional, and high-quality services
-            tailored to your needs.
-
+            {t("contactCta.desc")}
           </p>
 
           <div className="flex flex-wrap justify-center gap-5 mt-12">
@@ -51,24 +45,16 @@ export default function CTASection() {
               to="/contact"
               className="group bg-green hover:bg-green-light text-white px-8 py-4 rounded-full font-semibold shadow-xl transition-all duration-500 hover:scale-105 flex items-center gap-3"
             >
-              Request Free Quote
-
-              <ArrowRight
-                size={20}
-                className="group-hover:translate-x-2 transition"
-              />
-
+              {t("contactCta.requestQuoteBtn")}
+              <ArrowRight size={20} className="group-hover:translate-x-2 transition" />
             </Link>
 
-            <a
-              href="tel:+14034580219"
+            
+             <a href="tel:+14034580219"
               className="group border border-white/30 px-8 py-4 rounded-full text-white hover:bg-white hover:text-navy transition-all duration-500 flex items-center gap-3"
             >
-
               <PhoneCall size={18} />
-
-              Call Us Now
-
+              {t("contactCta.callUsNowBtn")}
             </a>
 
           </div>

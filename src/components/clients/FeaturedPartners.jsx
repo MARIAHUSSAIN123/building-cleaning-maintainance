@@ -7,41 +7,20 @@ import {
   ShoppingBag,
   Hotel,
 } from "lucide-react";
-
-const partners = [
-  {
-    name: "Commercial Buildings",
-    icon: Building2,
-    desc: "Delivering exceptional cleaning solutions with reliability, professionalism, and long-term partnerships.",
-  },
-  {
-    name: "Healthcare Facilities",
-    icon: HeartPulse,
-    desc: "Maintaining the highest hygiene standards for clinics, care homes, and medical spaces.",
-  },
-  {
-    name: "Corporate Offices",
-    icon: Briefcase,
-    desc: "Keeping workplaces spotless and professional for teams and clients alike.",
-  },
-  {
-    name: "Educational Institutions",
-    icon: GraduationCap,
-    desc: "Safe, clean learning environments for students and staff throughout the year.",
-  },
-  {
-    name: "Retail Stores",
-    icon: ShoppingBag,
-    desc: "Presentable, welcoming spaces that leave a lasting impression on customers.",
-  },
-  {
-    name: "Hospitality Industry",
-    icon: Hotel,
-    desc: "Consistent, detail-oriented service for hotels, venues, and guest spaces.",
-  },
-];
+import { useLanguage } from "../../context/LanguageContext";
 
 export default function FeaturedPartners() {
+  const { t } = useLanguage();
+
+  const partners = [
+    { name: t("clientsFeatured.p1Name"), icon: Building2, desc: t("clientsFeatured.p1Desc") },
+    { name: t("clientsFeatured.p2Name"), icon: HeartPulse, desc: t("clientsFeatured.p2Desc") },
+    { name: t("clientsFeatured.p3Name"), icon: Briefcase, desc: t("clientsFeatured.p3Desc") },
+    { name: t("clientsFeatured.p4Name"), icon: GraduationCap, desc: t("clientsFeatured.p4Desc") },
+    { name: t("clientsFeatured.p5Name"), icon: ShoppingBag, desc: t("clientsFeatured.p5Desc") },
+    { name: t("clientsFeatured.p6Name"), icon: Hotel, desc: t("clientsFeatured.p6Desc") },
+  ];
+
   return (
     <section className="py-24 bg-gray-50">
       <div className="max-w-7xl mx-auto px-6">
@@ -54,14 +33,13 @@ export default function FeaturedPartners() {
           className="text-center mb-16"
         >
           <p className="text-green-600 font-semibold uppercase tracking-widest">
-            Trusted Across Canada
+            {t("clientsFeatured.tag")}
           </p>
           <h2 className="text-4xl font-bold text-[#0E2A47] mt-3">
-            Featured Clients & Partners
+            {t("clientsFeatured.heading")}
           </h2>
           <p className="text-gray-600 mt-5 max-w-3xl mx-auto leading-8">
-            We proudly serve businesses from multiple industries with
-            professional cleaning and building maintenance services.
+            {t("clientsFeatured.desc")}
           </p>
         </motion.div>
 

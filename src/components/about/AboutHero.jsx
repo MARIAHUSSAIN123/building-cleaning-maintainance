@@ -2,8 +2,11 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
 import aboutHero from "../../assets/clean3.jpg";
+import { useLanguage } from "../../context/LanguageContext";
 
 export default function AboutHero() {
+  const { t } = useLanguage();
+
   return (
     <section className="relative h-screen overflow-hidden flex items-center">
 
@@ -40,7 +43,7 @@ export default function AboutHero() {
           <span className="w-3 h-3 rounded-full bg-green animate-pulse"></span>
 
           <span className="uppercase tracking-[4px] text-white text-sm">
-            About Hills Atcham
+            {t("about.badge")}
           </span>
         </motion.div>
 
@@ -52,13 +55,13 @@ export default function AboutHero() {
           transition={{ duration: 0.8 }}
           className="font-display text-6xl lg:text-8xl font-black leading-none text-white max-w-5xl"
         >
-          Building
+          {t("about.heroLine1")}
 
           <span className="block text-gold mt-3">
-            Cleaner Spaces
+            {t("about.heroLine2")}
           </span>
 
-          For A Better Tomorrow
+          {t("about.heroLine3")}
         </motion.h1>
 
         {/* Description */}
@@ -69,10 +72,7 @@ export default function AboutHero() {
           transition={{ delay: .3 }}
           className="mt-8 max-w-2xl text-xl leading-9 text-white/80"
         >
-          Hills Atcham provides professional cleaning and building
-          maintenance services with a commitment to quality,
-          reliability, and customer satisfaction. Every project
-          reflects our passion for excellence.
+          {t("about.heroDesc")}
         </motion.p>
 
         {/* Buttons */}
@@ -88,14 +88,14 @@ export default function AboutHero() {
             to="/contact"
             className="bg-green hover:bg-green-light text-white px-8 py-4 rounded-full font-semibold transition-all duration-300 hover:scale-105 shadow-2xl"
           >
-            Get Free Quote
+            {t("home.getFreeQuote")}
           </Link>
 
           <Link
             to="/services"
             className="group border border-white/30 backdrop-blur-xl px-8 py-4 rounded-full text-white hover:bg-white hover:text-navy transition-all duration-300 flex items-center gap-2"
           >
-            Our Services
+            {t("about.ourServicesBtn")}
 
             <ArrowRight
               size={18}

@@ -8,8 +8,11 @@ import {
 } from "lucide-react";
 
 import logo from "../assets/logo.png";
+import { useLanguage } from "../context/LanguageContext";
 
 export default function Footer() {
+  const { t } = useLanguage();
+
   return (
     <footer className="bg-[#071D31] text-white relative overflow-hidden">
 
@@ -32,9 +35,7 @@ export default function Footer() {
             />
 
             <p className="text-white/70 leading-8">
-              Hills Atcham provides dependable cleaning and building
-              maintenance services with professionalism, reliability,
-              and excellence across Calgary and surrounding areas.
+              {t("footer.companyDesc")}
             </p>
 
             {/* Business Hours */}
@@ -46,21 +47,21 @@ export default function Footer() {
                 <Clock className="text-green" size={20} />
 
                 <h4 className="text-lg font-semibold">
-                  Business Hours
+                  {t("footer.businessHoursTitle")}
                 </h4>
 
               </div>
 
               <div className="space-y-2 text-white/70">
 
-                <p>Monday – Friday</p>
-                <p>8:00 AM – 6:00 PM</p>
+                <p>{t("footer.monFri")}</p>
+                <p>{t("footer.monFriHours")}</p>
 
-                <p className="pt-2">Saturday</p>
-                <p>9:00 AM – 2:00 PM</p>
+                <p className="pt-2">{t("footer.saturday")}</p>
+                <p>{t("footer.saturdayHours")}</p>
 
-                <p className="pt-2">Sunday</p>
-                <p>Closed</p>
+                <p className="pt-2">{t("footer.sunday")}</p>
+                <p>{t("footer.sundayClosed")}</p>
 
               </div>
 
@@ -73,21 +74,21 @@ export default function Footer() {
           <div>
 
             <h3 className="text-2xl font-bold mb-6">
-              Quick Links
+              {t("footer.quickLinksTitle")}
             </h3>
 
             <div className="space-y-4">
 
               {[
-                ["Home", "/"],
-                ["About", "/about"],
-                ["Services", "/services"],
-                ["Clients & Partners", "/clients"],
-                ["Contact", "/contact"],
+                [t("footer.linkHome"), "/"],
+                [t("footer.linkAbout"), "/about"],
+                [t("footer.linkServices"), "/services"],
+                [t("footer.linkClients"), "/clients"],
+                [t("footer.linkContact"), "/contact"],
               ].map(([name, path]) => (
 
                 <Link
-                  key={name}
+                  key={path}
                   to={path}
                   className="flex items-center gap-2 text-white/70 hover:text-gold transition group"
                 >
@@ -111,20 +112,20 @@ export default function Footer() {
           <div>
 
             <h3 className="text-2xl font-bold mb-6">
-              Our Services
+              {t("footer.ourServicesTitle")}
             </h3>
 
             <div className="space-y-4 text-white/70">
 
-              <p>Commercial Cleaning</p>
+              <p>{t("footer.svcCommercial")}</p>
 
-              <p>Residential Cleaning</p>
+              <p>{t("footer.svcResidential")}</p>
 
-              <p>Building Maintenance</p>
+              <p>{t("footer.svcMaintenance")}</p>
 
-              <p>Janitorial Services</p>
+              <p>{t("footer.svcJanitorial")}</p>
 
-              <p>Deep Cleaning</p>
+              <p>{t("footer.svcDeepClean")}</p>
 
             </div>
 
@@ -135,7 +136,7 @@ export default function Footer() {
           <div>
 
             <h3 className="text-2xl font-bold mb-6">
-              Contact Us
+              {t("footer.contactUsTitle")}
             </h3>
 
             <div className="space-y-6">
@@ -147,7 +148,7 @@ export default function Footer() {
                 <div>
 
                   <p className="font-medium">
-                    Phone
+                    {t("footer.phoneLabel")}
                   </p>
 
                   <p className="text-white/70">
@@ -165,7 +166,7 @@ export default function Footer() {
                 <div>
 
                   <p className="font-medium">
-                    Email
+                    {t("footer.emailLabel")}
                   </p>
 
                   <p className="text-white/70 break-all">
@@ -183,15 +184,15 @@ export default function Footer() {
                 <div>
 
                   <p className="font-medium">
-                    Address
+                    {t("footer.addressLabel")}
                   </p>
 
                   <p className="text-white/70">
-                    Panorama Hills Heights NW
+                    {t("footer.addressLine1")}
                     <br />
-                    Calgary, Alberta
+                    {t("footer.addressLine2")}
                     <br />
-                    Canada
+                    {t("footer.addressLine3")}
                   </p>
 
                 </div>
@@ -211,11 +212,11 @@ export default function Footer() {
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
 
             <p className="text-white/60 text-sm text-center md:text-left">
-              © 2026 Hills Atcham. All Rights Reserved.
+              {t("footer.copyright")}
             </p>
 
             <p className="text-white/50 text-sm">
-              Designed with professionalism & care.
+              {t("footer.designedWith")}
             </p>
 
           </div>

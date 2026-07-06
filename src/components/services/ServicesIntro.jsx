@@ -1,59 +1,46 @@
 import clean4 from "../../assets/clean4.jpg";
+import { useLanguage } from "../../context/LanguageContext";
 
 const ServicesIntro = () => {
+  const { t } = useLanguage();
+
   return (
     <section className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-14 items-center">
 
-        {/* Left Content */}
         <div>
           <span className="text-yellow-500 uppercase font-semibold tracking-widest">
-            Our Services
+            {t("servicesIntro.tag")}
           </span>
 
           <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mt-4 leading-tight">
-            Professional Cleaning &
+            {t("servicesIntro.heading1")}
             <br />
-            Building Maintenance
+            {t("servicesIntro.heading2")}
           </h2>
 
           <p className="text-gray-600 mt-8 text-lg leading-8">
-            At Hills Atcham, we provide reliable commercial and residential
-            cleaning solutions tailored to your needs. Our experienced team
-            uses modern equipment and eco-friendly products to ensure every
-            space is clean, safe, and welcoming.
+            {t("servicesIntro.para1")}
           </p>
 
           <p className="text-gray-600 mt-6 text-lg leading-8">
-            Whether you need office cleaning, post-construction cleanup,
-            carpet care, or routine maintenance, our professionals deliver
-            consistent quality with attention to every detail.
+            {t("servicesIntro.para2")}
           </p>
 
           <div className="grid grid-cols-2 gap-4 mt-10">
 
             <div className="bg-yellow-50 p-5 rounded-xl shadow">
-              <h3 className="text-3xl font-bold text-yellow-500">
-                10+
-              </h3>
-              <p className="text-gray-700 mt-2">
-                Years Experience
-              </p>
+              <h3 className="text-3xl font-bold text-yellow-500">10+</h3>
+              <p className="text-gray-700 mt-2">{t("servicesIntro.yearsExp")}</p>
             </div>
 
             <div className="bg-yellow-50 p-5 rounded-xl shadow">
-              <h3 className="text-3xl font-bold text-yellow-500">
-                500+
-              </h3>
-              <p className="text-gray-700 mt-2">
-                Happy Clients
-              </p>
+              <h3 className="text-3xl font-bold text-yellow-500">500+</h3>
+              <p className="text-gray-700 mt-2">{t("servicesIntro.happyClients")}</p>
             </div>
 
           </div>
         </div>
-
-        {/* Right Image */}
 
         <div className="relative">
 
@@ -64,17 +51,12 @@ const ServicesIntro = () => {
           />
 
           <div className="absolute bottom-8 left-8 bg-yellow-400 text-black px-6 py-5 rounded-2xl shadow-xl">
-
-            <h3 className="text-3xl font-bold">
-              100%
-            </h3>
-
+            <h3 className="text-3xl font-bold">100%</h3>
             <p className="font-semibold">
-              Satisfaction
+              {t("servicesIntro.satisfaction")}
               <br />
-              Guaranteed
+              {t("servicesIntro.guaranteed")}
             </p>
-
           </div>
 
         </div>
