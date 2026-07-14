@@ -26,8 +26,8 @@ const translations = {
       fr: "Un nettoyage et un entretien fiables, fondés sur la confiance et la constance.",
     },
     aboutDesc: {
-      en: "Hills Atcham brings together experienced teams and clear standards to deliver cleaning and maintenance services that clients can rely on, visit after visit.",
-      fr: "Hills Atcham réunit des équipes expérimentées et des normes claires pour offrir des services de nettoyage et d'entretien fiables, visite après visite.",
+      en: "Pro Master brings together experienced teams and clear standards to deliver cleaning and maintenance services that clients can rely on, visit after visit.",
+      fr: "Pro Master réunit des équipes expérimentées et des normes claires pour offrir des services de nettoyage et d'entretien fiables, visite après visite.",
     },
     learnMore: { en: "Learn more about us", fr: "En savoir plus sur nous" },
 
@@ -54,13 +54,13 @@ const translations = {
     contactUs: { en: "Contact Us", fr: "Contactez-Nous" },
   },
   about: {
-    badge: { en: "About Hills Atcham", fr: "À Propos de Hills Atcham" },
+    badge: { en: "About Pro Master", fr: "À Propos de Pro Master" },
     heroLine1: { en: "Building", fr: "Créer des" },
     heroLine2: { en: "Cleaner Spaces", fr: "Espaces Plus Propres" },
     heroLine3: { en: "For A Better Tomorrow", fr: "Pour un Avenir Meilleur" },
     heroDesc: {
-      en: "Hills Atcham provides professional cleaning and building maintenance services with a commitment to quality, reliability, and customer satisfaction. Every project reflects our passion for excellence.",
-      fr: "Hills Atcham offre des services professionnels de nettoyage et d'entretien de bâtiments, avec un engagement envers la qualité, la fiabilité et la satisfaction client. Chaque projet reflète notre passion pour l'excellence.",
+      en: "Pro Master provides professional cleaning and building maintenance services with a commitment to quality, reliability, and customer satisfaction. Every project reflects our passion for excellence.",
+      fr: "Pro Master offre des services professionnels de nettoyage et d'entretien de bâtiments, avec un engagement envers la qualité, la fiabilité et la satisfaction client. Chaque projet reflète notre passion pour l'excellence.",
     },
     ourServicesBtn: { en: "Our Services", fr: "Nos Services" },
   },
@@ -70,8 +70,8 @@ const translations = {
     heading1: { en: "Building Cleaner", fr: "Créer des Espaces" },
     heading2: { en: "Spaces Since Day One", fr: "Plus Propres Depuis le Début" },
     para1: {
-      en: "Hills Atcham was founded with one clear mission — to provide dependable cleaning and building maintenance services that businesses and homeowners can trust. We believe every clean environment creates healthier, happier and more productive spaces for everyone.",
-      fr: "Hills Atcham a été fondée avec une mission claire — offrir des services de nettoyage et d'entretien de bâtiments fiables, en qui les entreprises et les propriétaires peuvent avoir confiance. Nous croyons qu'un environnement propre crée des espaces plus sains, plus heureux et plus productifs pour tous.",
+      en: "Pro Master was founded with one clear mission — to provide dependable cleaning and building maintenance services that businesses and homeowners can trust. We believe every clean environment creates healthier, happier and more productive spaces for everyone.",
+      fr: "Pro Master a été fondée avec une mission claire — offrir des services de nettoyage et d'entretien de bâtiments fiables, en qui les entreprises et les propriétaires peuvent avoir confiance. Nous croyons qu'un environnement propre crée des espaces plus sains, plus heureux et plus productifs pour tous.",
     },
     para2: {
       en: "Our experienced team combines modern equipment, eco-friendly practices and attention to detail to deliver exceptional cleaning results every single time.",
@@ -117,20 +117,13 @@ const translations = {
     specialized: { en: "Specialized Cleaning", fr: "Nettoyage Spécialisé" },
     specializedDesc: { en: "Deep cleans, post-construction cleanup, and move-in/move-out services.", fr: "Nettoyages en profondeur, après-construction, et services d'emménagement/déménagement." },
   },
-  footer: {
-    tagline: { en: "Clean & Building Maintenance", fr: "Nettoyage et Entretien de Bâtiments" },
-    navigate: { en: "Navigate", fr: "Navigation" },
-    contact: { en: "Contact", fr: "Contact" },
-    phone: { en: "[Insert phone number]", fr: "[Insérer numéro de téléphone]" },
-    email: { en: "[Insert email]", fr: "[Insérer email]" },
-  },
   whyChooseUs: {
     tag: { en: "Why Choose Us", fr: "Pourquoi Nous Choisir" },
     heading1: { en: "We Deliver", fr: "Nous Offrons" },
     heading2: { en: "More Than Cleaning", fr: "Plus Que du Nettoyage" },
     intro: {
-      en: "Hills Atcham combines skilled professionals, premium equipment and customer-first service to create clean, healthy and welcoming environments.",
-      fr: "Hills Atcham combine des professionnels qualifiés, un équipement de qualité supérieure et un service axé sur le client pour créer des environnements propres, sains et accueillants.",
+      en: "Pro Master combines skilled professionals, premium equipment and customer-first service to create clean, healthy and welcoming environments.",
+      fr: "Pro Master combine des professionnels qualifiés, un équipement de qualité supérieure et un service axé sur le client pour créer des environnements propres, sains et accueillants.",
     },
     feature1Title: { en: "Trusted Professionals", fr: "Professionnels de Confiance" },
     feature1Text: { en: "Experienced, trained and fully committed to delivering exceptional cleaning services.", fr: "Expérimentés, formés et pleinement engagés à offrir des services de nettoyage exceptionnels." },
@@ -184,8 +177,8 @@ const translations = {
     tag: { en: "Industries We Serve", fr: "Secteurs Que Nous Servons" },
     heading: { en: "Trusted Across Multiple Industries", fr: "De Confiance Dans Plusieurs Secteurs" },
     desc: {
-      en: "Hills Atcham provides reliable cleaning and building maintenance services for organizations of every size across Canada.",
-      fr: "Hills Atcham offre des services fiables de nettoyage et d'entretien de bâtiments pour des organisations de toutes tailles à travers le Canada.",
+      en: "Pro Master provides reliable cleaning and building maintenance services for organizations of every size across Canada.",
+      fr: "Pro Master offre des services fiables de nettoyage et d'entretien de bâtiments pour des organisations de toutes tailles à travers le Canada.",
     },
     i1Title: { en: "Corporate Offices", fr: "Bureaux d'Entreprise" },
     i1Text: { en: "Professional cleaning services for office buildings and corporate spaces.", fr: "Services de nettoyage professionnels pour immeubles de bureaux et espaces d'entreprise." },
@@ -216,7 +209,7 @@ const translations = {
       fr: "Notre engagement envers la qualité, la fiabilité et la satisfaction client nous a valu la confiance d'entreprises à travers le Canada.",
     },
     t1Role: { en: "Corporate Office Manager", fr: "Gestionnaire de Bureau d'Entreprise" },
-    t1Review: { en: "Hills Atcham consistently delivers exceptional cleaning services. Their professionalism and attention to detail have exceeded our expectations.", fr: "Hills Atcham offre constamment des services de nettoyage exceptionnels. Leur professionnalisme et souci du détail ont dépassé nos attentes." },
+    t1Review: { en: "Pro Master consistently delivers exceptional cleaning services. Their professionalism and attention to detail have exceeded our expectations.", fr: "Pro Master offre constamment des services de nettoyage exceptionnels. Leur professionnalisme et souci du détail ont dépassé nos attentes." },
     t2Role: { en: "Healthcare Facility Director", fr: "Directrice d'Établissement de Santé" },
     t2Review: { en: "Reliable, responsive, and highly professional. Our facility has never looked cleaner. We highly recommend their team.", fr: "Fiables, réactifs et très professionnels. Notre établissement n'a jamais été aussi propre. Nous recommandons vivement leur équipe." },
     t3Role: { en: "Retail Operations Manager", fr: "Gestionnaire des Opérations de Détail" },
@@ -226,8 +219,8 @@ const translations = {
     tag: { en: "Why Choose Us", fr: "Pourquoi Nous Choisir" },
     heading: { en: "Excellence You Can Trust", fr: "Une Excellence en Qui Vous Pouvez Avoir Confiance" },
     desc: {
-      en: "Hills Atcham is committed to delivering reliable cleaning and building maintenance services with professionalism, quality, and customer satisfaction at the heart of everything we do.",
-      fr: "Hills Atcham s'engage à offrir des services fiables de nettoyage et d'entretien de bâtiments, avec le professionnalisme, la qualité et la satisfaction client au cœur de tout ce que nous faisons.",
+      en: "Pro Master is committed to delivering reliable cleaning and building maintenance services with professionalism, quality, and customer satisfaction at the heart of everything we do.",
+      fr: "Pro Master s'engage à offrir des services fiables de nettoyage et d'entretien de bâtiments, avec le professionnalisme, la qualité et la satisfaction client au cœur de tout ce que nous faisons.",
     },
     f1Title: { en: "Trusted & Reliable", fr: "Fiable et Digne de Confiance" },
     f1Text: { en: "We build long-term partnerships through honesty, consistency, and dependable service.", fr: "Nous bâtissons des partenariats durables grâce à l'honnêteté, la constance et un service fiable." },
@@ -254,8 +247,8 @@ const translations = {
     heading1: { en: "Professional Cleaning &", fr: "Nettoyage Professionnel &" },
     heading2: { en: "Building Maintenance", fr: "Entretien de Bâtiments" },
     para1: {
-      en: "At Hills Atcham, we provide reliable commercial and residential cleaning solutions tailored to your needs. Our experienced team uses modern equipment and eco-friendly products to ensure every space is clean, safe, and welcoming.",
-      fr: "Chez Hills Atcham, nous offrons des solutions de nettoyage commercial et résidentiel fiables, adaptées à vos besoins. Notre équipe expérimentée utilise des équipements modernes et des produits écologiques pour garantir des espaces propres, sûrs et accueillants.",
+      en: "At Pro Master, we provide reliable commercial and residential cleaning solutions tailored to your needs. Our experienced team uses modern equipment and eco-friendly products to ensure every space is clean, safe, and welcoming.",
+      fr: "Chez Pro Master, nous offrons des solutions de nettoyage commercial et résidentiel fiables, adaptées à vos besoins. Notre équipe expérimentée utilise des équipements modernes et des produits écologiques pour garantir des espaces propres, sûrs et accueillants.",
     },
     para2: {
       en: "Whether you need office cleaning, post-construction cleanup, carpet care, or routine maintenance, our professionals deliver consistent quality with attention to every detail.",
@@ -274,27 +267,64 @@ const translations = {
       fr: "Nous offrons des solutions de nettoyage et d'entretien professionnelles adaptées aux propriétés commerciales, résidentielles et industrielles.",
     },
     learnMoreLink: { en: "Learn More", fr: "En Savoir Plus" },
+    startingAt: { en: "From $80/hr", fr: "À partir de 80$/h" },
+
     s1Title: { en: "Commercial Cleaning", fr: "Nettoyage Commercial" },
-    s1Desc: { en: "Professional cleaning solutions for offices, buildings and businesses.", fr: "Solutions de nettoyage professionnelles pour bureaux, immeubles et entreprises." },
+    s1Desc: {
+      en: "Our commercial cleaning services are designed to keep your business looking professional, clean, and welcoming every day. We provide customized cleaning solutions for offices, retail stores, shopping centres, hotels, restaurants, educational institutions, healthcare facilities, and commercial buildings of all sizes. Our experienced team cleans workstations, reception areas, restrooms, break rooms, floors, windows, and high-touch surfaces using professional-grade equipment and environmentally friendly cleaning products. We work around your business schedule to minimize disruptions while maintaining the highest standards of cleanliness and hygiene. A clean workplace not only creates a positive impression but also promotes employee productivity, customer confidence, and a healthier working environment.",
+      fr: "Nos services de nettoyage commercial sont conçus pour que votre entreprise reste propre, professionnelle et accueillante chaque jour. Nous proposons des solutions de nettoyage adaptées aux bureaux, commerces, centres commerciaux, hôtels, restaurants, établissements scolaires, structures de santé et immeubles commerciaux de toutes tailles. Notre équipe expérimentée nettoie les postes de travail, les zones d'accueil, les sanitaires, les salles de pause, les sols, les fenêtres et les surfaces fréquemment touchées, à l'aide d'équipements professionnels et de produits écologiques. Nous nous adaptons à l'horaire de votre entreprise afin de minimiser les perturbations tout en maintenant les plus hauts standards de propreté et d'hygiène. Un lieu de travail propre crée non seulement une impression positive, mais favorise aussi la productivité des employés, la confiance des clients et un environnement de travail plus sain.",
+    },
+
     s2Title: { en: "Residential Cleaning", fr: "Nettoyage Résidentiel" },
-    s2Desc: { en: "Complete home cleaning services for a healthier living environment.", fr: "Services complets de nettoyage résidentiel pour un environnement de vie plus sain." },
+    s2Desc: {
+      en: "Keeping your home clean shouldn't be stressful. Our residential cleaning services are tailored to meet your lifestyle and schedule, providing everything from regular housekeeping to deep cleaning and move-in or move-out cleaning. We carefully clean kitchens, bathrooms, bedrooms, living rooms, hallways, and every corner of your home with attention to detail. Using safe, eco-friendly cleaning products, we remove dust, dirt, stains, allergens, and bacteria while protecting your furniture and flooring. Our goal is to create a healthier, fresher, and more comfortable living space so you can spend more time enjoying your home and less time worrying about cleaning.",
+      fr: "Garder votre maison propre ne devrait pas être une source de stress. Nos services de nettoyage résidentiel s'adaptent à votre mode de vie et à votre emploi du temps, du ménage régulier au nettoyage en profondeur, en passant par le nettoyage d'entrée ou de sortie de logement. Nous nettoyons soigneusement les cuisines, salles de bain, chambres, salons, couloirs et chaque recoin de votre maison avec attention aux détails. Grâce à des produits sûrs et écologiques, nous éliminons la poussière, la saleté, les taches, les allergènes et les bactéries tout en protégeant vos meubles et vos sols. Notre objectif est de créer un espace de vie plus sain, plus frais et plus confortable afin que vous puissiez profiter davantage de votre maison sans vous soucier du ménage.",
+    },
+
     s3Title: { en: "Office Cleaning", fr: "Nettoyage de Bureaux" },
-    s3Desc: { en: "Daily and scheduled office cleaning with attention to detail.", fr: "Nettoyage de bureaux quotidien et planifié avec souci du détail." },
+    s3Desc: {
+      en: "A clean office creates a healthier, more productive workplace for employees while leaving a lasting impression on clients and visitors. Our office cleaning services include workstations, meeting rooms, reception areas, kitchens, washrooms, carpets, floors, windows, and common areas. We disinfect frequently touched surfaces to help reduce the spread of germs and maintain a safe working environment. Our trained professionals use modern cleaning equipment and industry-approved products while working before, during, or after office hours to avoid disrupting your daily operations. Every cleaning plan is customized to suit your business requirements and schedule.",
+      fr: "Un bureau propre favorise un environnement de travail plus sain et plus productif pour les employés, tout en laissant une impression durable aux clients et visiteurs. Nos services de nettoyage de bureaux couvrent les postes de travail, salles de réunion, zones d'accueil, cuisines, sanitaires, tapis, sols, fenêtres et espaces communs. Nous désinfectons les surfaces fréquemment touchées afin de limiter la propagation des germes et de maintenir un environnement de travail sûr. Nos professionnels qualifiés utilisent des équipements modernes et des produits approuvés par l'industrie, en intervenant avant, pendant ou après les heures de bureau pour ne pas perturber vos activités quotidiennes. Chaque plan de nettoyage est personnalisé selon les besoins et l'horaire de votre entreprise.",
+    },
+
     s4Title: { en: "Carpet Cleaning", fr: "Nettoyage de Tapis" },
-    s4Desc: { en: "Deep carpet cleaning to remove dirt, stains and allergens.", fr: "Nettoyage en profondeur des tapis pour éliminer saleté, taches et allergènes." },
+    s4Desc: {
+      en: "Our professional carpet cleaning service restores the beauty, freshness, and lifespan of your carpets through deep cleaning technology. We remove stubborn stains, embedded dirt, pet odors, bacteria, allergens, and dust mites using advanced steam cleaning and extraction equipment. Regular carpet cleaning not only improves the appearance of your home or business but also enhances indoor air quality and creates a healthier environment for everyone. Whether it's residential or commercial carpeting, our experienced technicians deliver outstanding results that leave your carpets cleaner, softer, and looking like new.",
+      fr: "Notre service professionnel de nettoyage de tapis redonne beauté, fraîcheur et longévité à vos tapis grâce à une technologie de nettoyage en profondeur. Nous éliminons les taches tenaces, la saleté incrustée, les odeurs d'animaux, les bactéries, les allergènes et les acariens à l'aide d'équipements avancés de nettoyage vapeur et d'extraction. Un nettoyage régulier des tapis améliore non seulement l'apparence de votre maison ou de votre entreprise, mais aussi la qualité de l'air intérieur, pour un environnement plus sain pour tous. Qu'il s'agisse de tapis résidentiels ou commerciaux, nos techniciens expérimentés offrent des résultats exceptionnels qui laissent vos tapis plus propres, plus doux et comme neufs.",
+    },
+
     s5Title: { en: "Window Cleaning", fr: "Nettoyage de Fenêtres" },
-    s5Desc: { en: "Crystal-clear interior and exterior window cleaning services.", fr: "Services de nettoyage de fenêtres intérieures et extérieures impeccables." },
+    s5Desc: {
+      en: "Clean windows instantly improve the appearance of any property while allowing more natural light to brighten your space. Our window cleaning service provides streak-free results for residential homes, office buildings, commercial properties, and retail locations. We clean both interior and exterior glass, including frames, tracks, and window sills using professional equipment and safe cleaning solutions. Our experienced team removes fingerprints, dust, water spots, and environmental buildup, ensuring crystal-clear windows that enhance the beauty and value of your property.",
+      fr: "Des fenêtres propres améliorent instantanément l'apparence de toute propriété tout en laissant entrer plus de lumière naturelle. Notre service de nettoyage de fenêtres offre des résultats sans traces pour les maisons résidentielles, immeubles de bureaux, propriétés commerciales et commerces de détail. Nous nettoyons le verre intérieur et extérieur, ainsi que les cadres, rails et rebords, à l'aide d'équipements professionnels et de produits sûrs. Notre équipe expérimentée élimine les empreintes, la poussière, les taches d'eau et les dépôts environnementaux, garantissant des fenêtres impeccables qui rehaussent la beauté et la valeur de votre propriété.",
+    },
+
     s6Title: { en: "Industrial Cleaning", fr: "Nettoyage Industriel" },
-    s6Desc: { en: "Reliable warehouse and industrial facility cleaning solutions.", fr: "Solutions fiables de nettoyage d'entrepôts et d'installations industrielles." },
-    s7Title: { en: "Post Construction", fr: "Après-Construction" },
-    s7Desc: { en: "Complete cleanup after renovation and construction projects.", fr: "Nettoyage complet après rénovation et projets de construction." },
+    s6Desc: {
+      en: "Industrial facilities require specialized cleaning methods that meet strict safety standards. Our industrial cleaning services are ideal for warehouses, manufacturing plants, factories, production facilities, and distribution centres. We remove grease, dust, debris, oil, chemical residue, and industrial contaminants using heavy-duty equipment and professional cleaning techniques. Our highly trained staff follows all workplace safety procedures while delivering efficient cleaning solutions that improve operational efficiency, workplace safety, and equipment performance. Every project is completed with minimal disruption to your daily operations.",
+      fr: "Les installations industrielles nécessitent des méthodes de nettoyage spécialisées répondant à des normes de sécurité strictes. Nos services de nettoyage industriel conviennent parfaitement aux entrepôts, usines de fabrication, sites de production et centres de distribution. Nous éliminons la graisse, la poussière, les débris, l'huile, les résidus chimiques et les contaminants industriels à l'aide d'équipements robustes et de techniques professionnelles. Notre personnel hautement qualifié respecte toutes les procédures de sécurité au travail tout en offrant des solutions de nettoyage efficaces qui améliorent l'efficacité opérationnelle, la sécurité et la performance des équipements. Chaque projet est réalisé avec une perturbation minimale de vos activités quotidiennes.",
+    },
+
+    s7Title: { en: "Post Construction Cleanup", fr: "Nettoyage Après-Construction" },
+    s7Desc: {
+      en: "Construction and renovation projects often leave behind dust, debris, paint splatters, adhesives, and leftover building materials. Our post-construction cleanup service prepares your property for immediate occupancy by thoroughly cleaning every surface from top to bottom. We remove fine construction dust, vacuum and mop floors, polish fixtures, clean windows, sanitize bathrooms, and ensure every room is spotless. Whether it's a newly built home, office renovation, or commercial construction project, we deliver detailed cleaning that transforms your property into a clean, safe, and move-in-ready environment.",
+      fr: "Les projets de construction et de rénovation laissent souvent derrière eux poussière, débris, éclaboussures de peinture, adhésifs et matériaux de construction restants. Notre service de nettoyage après-construction prépare votre propriété pour une occupation immédiate en nettoyant minutieusement chaque surface de fond en comble. Nous éliminons la fine poussière de construction, aspirons et lavons les sols, faisons briller les installations, nettoyons les fenêtres, désinfectons les salles de bain et veillons à ce que chaque pièce soit impeccable. Qu'il s'agisse d'une maison neuve, d'une rénovation de bureau ou d'un projet de construction commerciale, nous offrons un nettoyage détaillé qui transforme votre propriété en un espace propre, sûr et prêt à emménager.",
+    },
+
     s8Title: { en: "Pressure Washing", fr: "Lavage à Pression" },
-    s8Desc: { en: "Power washing for sidewalks, driveways and exterior surfaces.", fr: "Lavage à pression pour trottoirs, entrées et surfaces extérieures." },
-    s9Title: { en: "Sanitization", fr: "Désinfection" },
-    s9Desc: { en: "Safe and effective disinfection services for every environment.", fr: "Services de désinfection sûrs et efficaces pour tout environnement." },
+    s8Desc: {
+      en: "Our pressure washing services restore the original appearance of your exterior surfaces by removing years of accumulated dirt, mold, mildew, algae, grease, oil stains, and grime. We professionally clean driveways, sidewalks, patios, parking lots, decks, fences, retaining walls, and building exteriors using commercial-grade pressure washing equipment. Every surface is cleaned with the appropriate water pressure to achieve excellent results without causing damage. Pressure washing not only enhances curb appeal but also helps protect your property's exterior from long-term wear and deterioration.",
+      fr: "Nos services de lavage à pression redonnent à vos surfaces extérieures leur apparence d'origine en éliminant des années de saleté accumulée, moisissure, algues, graisse, taches d'huile et crasse. Nous nettoyons professionnellement les entrées de garage, trottoirs, patios, stationnements, terrasses, clôtures, murs de soutènement et façades à l'aide d'équipements de lavage à pression de qualité commerciale. Chaque surface est nettoyée avec la pression d'eau appropriée pour obtenir d'excellents résultats sans causer de dommages. Le lavage à pression améliore non seulement l'apparence extérieure, mais protège également votre propriété contre l'usure et la détérioration à long terme.",
+    },
+
+    s9Title: { en: "Sanitization & Disinfection", fr: "Désinfection" },
+    s9Desc: {
+      en: "A clean environment is essential for protecting the health and well-being of your family, employees, and customers. Our sanitization and disinfection services use hospital-grade disinfectants and advanced cleaning techniques to eliminate harmful bacteria, viruses, and germs from high-touch surfaces and shared spaces. We provide professional disinfection services for offices, schools, healthcare facilities, restaurants, retail stores, warehouses, and residential properties. By maintaining the highest hygiene standards, we help create safer, healthier environments while giving you complete confidence and peace of mind.",
+      fr: "Un environnement propre est essentiel pour protéger la santé et le bien-être de votre famille, de vos employés et de vos clients. Nos services de désinfection utilisent des désinfectants de qualité hospitalière et des techniques avancées pour éliminer les bactéries, virus et germes nuisibles présents sur les surfaces fréquemment touchées et les espaces partagés. Nous offrons des services de désinfection professionnels pour les bureaux, écoles, établissements de santé, restaurants, commerces, entrepôts et propriétés résidentielles. En maintenant les normes d'hygiène les plus élevées, nous contribuons à créer des environnements plus sûrs et plus sains, en vous offrant une tranquillité d'esprit totale.",
+    },
   },
   whyChooseServices: {
-    tag: { en: "Why Hills Atcham", fr: "Pourquoi Hills Atcham" },
+    tag: { en: "Why Pro Master", fr: "Pourquoi Pro Master" },
     heading1: { en: "Why Clients", fr: "Pourquoi les Clients" },
     heading2: { en: "Choose Our Services", fr: "Choisissent Nos Services" },
     intro: {
@@ -318,8 +348,8 @@ const translations = {
     heading1: { en: "Let's Make Your", fr: "Faisons Briller Votre" },
     heading2: { en: "Workplace Shine", fr: "Lieu de Travail" },
     desc: {
-      en: "Whether you need commercial cleaning, residential services, or complete building maintenance, Hills Atcham is ready to deliver reliable, high-quality solutions tailored to your needs.",
-      fr: "Que vous ayez besoin de nettoyage commercial, de services résidentiels ou d'entretien complet de bâtiments, Hills Atcham est prêt à offrir des solutions fiables et de haute qualité adaptées à vos besoins.",
+      en: "Whether you need commercial cleaning, residential services, or complete building maintenance, Pro Master is ready to deliver reliable, high-quality solutions tailored to your needs.",
+      fr: "Que vous ayez besoin de nettoyage commercial, de services résidentiels ou d'entretien complet de bâtiments, Pro Master est prêt à offrir des solutions fiables et de haute qualité adaptées à vos besoins.",
     },
     getFreeQuoteBtn: { en: "Get Free Quote", fr: "Devis Gratuit" },
     callNowBtn: { en: "Call Now", fr: "Appelez Maintenant" },
@@ -341,7 +371,7 @@ const translations = {
       en: "Fill out the form below and our team will get back to you as soon as possible.",
       fr: "Remplissez le formulaire ci-dessous et notre équipe vous répondra dès que possible.",
     },
-    whyTitle: { en: "Why Contact Hills Atcham?", fr: "Pourquoi Contacter Hills Atcham?" },
+    whyTitle: { en: "Why Contact Pro Master?", fr: "Pourquoi Contacter Pro Master?" },
     whyDesc: {
       en: "Whether you need commercial cleaning, residential cleaning, or complete building maintenance, we're here to provide reliable solutions tailored to your business.",
       fr: "Que vous ayez besoin de nettoyage commercial, résidentiel ou d'entretien complet de bâtiments, nous offrons des solutions fiables adaptées à votre entreprise.",
@@ -375,8 +405,8 @@ const translations = {
     heading1: { en: "Ready For A", fr: "Prêt Pour un" },
     heading2: { en: "Cleaner Tomorrow?", fr: "Avenir Plus Propre?" },
     desc: {
-      en: "Whether you need commercial cleaning, residential cleaning, or complete building maintenance, Hills Atcham is here to provide dependable, professional, and high-quality services tailored to your needs.",
-      fr: "Que vous ayez besoin de nettoyage commercial, résidentiel ou d'entretien complet, Hills Atcham est là pour offrir des services fiables, professionnels et de haute qualité adaptés à vos besoins.",
+      en: "Whether you need commercial cleaning, residential cleaning, or complete building maintenance, Pro Master is here to provide dependable, professional, and high-quality services tailored to your needs.",
+      fr: "Que vous ayez besoin de nettoyage commercial, résidentiel ou d'entretien complet, Pro Master est là pour offrir des services fiables, professionnels et de haute qualité adaptés à vos besoins.",
     },
     requestQuoteBtn: { en: "Request Free Quote", fr: "Demander un Devis Gratuit" },
     callUsNowBtn: { en: "Call Us Now", fr: "Appelez-Nous Maintenant" },
@@ -388,7 +418,7 @@ const translations = {
       en: "Stop by our office or schedule an appointment. We look forward to meeting you and discussing your cleaning needs.",
       fr: "Passez à notre bureau ou prenez rendez-vous. Nous avons hâte de vous rencontrer et de discuter de vos besoins.",
     },
-    officeName: { en: "Hills Atcham", fr: "Hills Atcham" },
+    officeName: { en: "Pro Master", fr: "Pro Master" },
     easyNav: { en: "Easy Navigation", fr: "Navigation Facile" },
     freeParking: { en: "Free Visitor Parking", fr: "Stationnement Visiteur Gratuit" },
     getDirectionsBtn: { en: "Get Directions", fr: "Obtenir l'Itinéraire" },
@@ -397,7 +427,7 @@ const translations = {
     tag: { en: "FAQ", fr: "FAQ" },
     heading: { en: "Frequently Asked Questions", fr: "Questions Fréquemment Posées" },
     desc: {
-      en: "Find quick answers to some of the most common questions our clients ask before choosing Hills Atcham.",
+      en: "Find quick answers to some of the most common questions our clients ask before choosing Pro Master.",
       fr: "Trouvez rapidement des réponses aux questions les plus fréquemment posées par nos clients.",
     },
     q1: { en: "What cleaning services do you provide?", fr: "Quels services de nettoyage offrez-vous?" },
@@ -418,13 +448,11 @@ const translations = {
     phone: { en: "[Insert phone number]", fr: "[Insérer numéro de téléphone]" },
     email: { en: "[Insert email]", fr: "[Insérer email]" },
 
-    // Company description
     companyDesc: {
-      en: "Hills Atcham provides dependable cleaning and building maintenance services with professionalism, reliability, and excellence across Calgary and surrounding areas.",
-      fr: "Hills Atcham offre des services fiables de nettoyage et d'entretien de bâtiments avec professionnalisme, fiabilité et excellence à Calgary et dans les régions environnantes.",
+      en: "Pro Master provides dependable cleaning and building maintenance services with professionalism, reliability, and excellence across Calgary and surrounding areas.",
+      fr: "Pro Master offre des services fiables de nettoyage et d'entretien de bâtiments avec professionnalisme, fiabilité et excellence à Calgary et dans les régions environnantes.",
     },
 
-    // Business Hours
     businessHoursTitle: { en: "Business Hours", fr: "Heures d'ouverture" },
     monFri: { en: "Monday – Friday", fr: "Lundi – Vendredi" },
     monFriHours: { en: "8:00 AM – 6:00 PM", fr: "8h00 – 18h00" },
@@ -433,7 +461,6 @@ const translations = {
     sunday: { en: "Sunday", fr: "Dimanche" },
     sundayClosed: { en: "Closed", fr: "Fermé" },
 
-    // Quick Links
     quickLinksTitle: { en: "Quick Links", fr: "Liens rapides" },
     linkHome: { en: "Home", fr: "Accueil" },
     linkAbout: { en: "About", fr: "À propos" },
@@ -441,7 +468,6 @@ const translations = {
     linkClients: { en: "Clients & Partners", fr: "Clients et Partenaires" },
     linkContact: { en: "Contact", fr: "Contact" },
 
-    // Our Services list
     ourServicesTitle: { en: "Our Services", fr: "Nos services" },
     svcCommercial: { en: "Commercial Cleaning", fr: "Nettoyage commercial" },
     svcResidential: { en: "Residential Cleaning", fr: "Nettoyage résidentiel" },
@@ -449,7 +475,6 @@ const translations = {
     svcJanitorial: { en: "Janitorial Services", fr: "Services de conciergerie" },
     svcDeepClean: { en: "Deep Cleaning", fr: "Nettoyage en profondeur" },
 
-    // Contact Us block
     contactUsTitle: { en: "Contact Us", fr: "Contactez-nous" },
     phoneLabel: { en: "Phone", fr: "Téléphone" },
     emailLabel: { en: "Email", fr: "Courriel" },
@@ -458,8 +483,7 @@ const translations = {
     addressLine2: { en: "Calgary, Alberta", fr: "Calgary, Alberta" },
     addressLine3: { en: "Canada", fr: "Canada" },
 
-    // Bottom bar
-    copyright: { en: "© 2026 Hills Atcham. All Rights Reserved.", fr: "© 2026 Hills Atcham. Tous droits réservés." },
+    copyright: { en: "© 2026 Pro Master. All Rights Reserved.", fr: "© 2026 Pro Master. Tous droits réservés." },
     designedWith: { en: "Designed with professionalism & care.", fr: "Conçu avec professionnalisme et attention." },
   },
 };

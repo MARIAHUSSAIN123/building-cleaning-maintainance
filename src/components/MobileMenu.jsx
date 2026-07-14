@@ -19,7 +19,7 @@ export default function MobileMenu({ closeMenu }) {
       animate={{ opacity: 1, x: 0 }}
       exit={{ opacity: 0, x: "100%" }}
       transition={{ duration: 0.35 }}
-      className="fixed inset-0 z-40 bg-white lg:hidden"
+      className="fixed inset-0 z-[999] bg-white lg:hidden"
     >
       <div className="flex h-full flex-col justify-center items-center gap-8">
 

@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import StatsSection from "../components/StatsSection";
 import staffHero from "../assets/staff-hero.jpg";
+import QuoteButton from "../components/QuoteButton"; 
 import { useLanguage } from "../context/LanguageContext";
 
 const fadeUp = {
@@ -79,12 +80,9 @@ export default function Home() {
       transition={{ delay: .5 }}
       className="flex flex-wrap gap-5 mt-10"
     >
-      <Link
-        to="/contact"
-        className="bg-green hover:bg-green-light text-white px-8 py-4 rounded-full font-semibold transition-all duration-300 hover:scale-105 shadow-2xl"
-      >
-        {t("home.getFreeQuote")}
-      </Link>
+     <QuoteButton className="bg-gold text-navy px-8 py-4 rounded-full font-bold uppercase tracking-wide text-sm hover:opacity-90 transition-opacity">
+  Get a Free Quote Today
+</QuoteButton>
 
       <Link
         to="/services"

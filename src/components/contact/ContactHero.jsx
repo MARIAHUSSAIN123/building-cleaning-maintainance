@@ -52,7 +52,7 @@ export default function ContactHero() {
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: .8 }}
-          className="font-display text-6xl lg:text-8xl font-black text-white leading-none max-w-5xl"
+          className="font-display text-6xl lg:text-6xl font-black text-white leading-none max-w-5xl"
         >
           {t("contactHero.heading1")}
           <span className="block text-gold mt-2">

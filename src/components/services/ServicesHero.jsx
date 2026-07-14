@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
 import clean5 from "../../assets/clean5.jpg";
+import QuoteButton from "../QuoteButton";
 import { useLanguage } from "../../context/LanguageContext";
 
 const ServicesHero = () => {
@@ -32,13 +33,9 @@ const ServicesHero = () => {
         </p>
 
         <div className="mt-10 flex flex-col sm:flex-row justify-center gap-5">
-          <Link
-            to="/contact"
-            className="bg-yellow-400 hover:bg-yellow-500 text-black font-bold px-8 py-4 rounded-lg transition flex items-center justify-center gap-2"
-          >
-            {t("servicesHero.getFreeQuoteBtn")}
-            <ArrowRight size={20} />
-          </Link>
+         <QuoteButton className="bg-gold text-navy px-8 py-4 rounded-full font-bold uppercase tracking-wide text-sm hover:opacity-90 transition-opacity">
+  Get a Free Quote Today
+</QuoteButton>
 
           <Link
             to="/about"

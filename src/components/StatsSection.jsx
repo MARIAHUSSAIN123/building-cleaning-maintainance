@@ -9,13 +9,13 @@ import {
 const stats = [
   {
     icon: Building2,
-    number: "500+",
+    number: "200+",
     title: "Projects Completed",
     desc: "Successfully delivering commercial cleaning and maintenance projects across Canada.",
   },
   {
     icon: Users,
-    number: "300+",
+    number: "185+",
     title: "Happy Clients",
     desc: "Businesses trust our professional team for reliable and consistent service.",
   },
