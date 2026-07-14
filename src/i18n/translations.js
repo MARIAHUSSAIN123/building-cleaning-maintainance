@@ -26,8 +26,8 @@ const translations = {
       fr: "Un nettoyage et un entretien fiables, fondés sur la confiance et la constance.",
     },
     aboutDesc: {
-      en: "Pro Master brings together experienced teams and clear standards to deliver cleaning and maintenance services that clients can rely on, visit after visit.",
-      fr: "Pro Master réunit des équipes expérimentées et des normes claires pour offrir des services de nettoyage et d'entretien fiables, visite après visite.",
+      en: "Pro Master Cleaning brings together experienced teams and clear standards to deliver cleaning and maintenance services that clients can rely on, visit after visit.",
+      fr: "Pro Master Cleaning réunit des équipes expérimentées et des normes claires pour offrir des services de nettoyage et d'entretien fiables, visite après visite.",
     },
     learnMore: { en: "Learn more about us", fr: "En savoir plus sur nous" },
 
@@ -54,13 +54,13 @@ const translations = {
     contactUs: { en: "Contact Us", fr: "Contactez-Nous" },
   },
   about: {
-    badge: { en: "About Pro Master", fr: "À Propos de Pro Master" },
+    badge: { en: "About Pro Master Cleaning", fr: "À Propos de Pro Master Cleaning" },
     heroLine1: { en: "Building", fr: "Créer des" },
     heroLine2: { en: "Cleaner Spaces", fr: "Espaces Plus Propres" },
     heroLine3: { en: "For A Better Tomorrow", fr: "Pour un Avenir Meilleur" },
     heroDesc: {
-      en: "Pro Master provides professional cleaning and building maintenance services with a commitment to quality, reliability, and customer satisfaction. Every project reflects our passion for excellence.",
-      fr: "Pro Master offre des services professionnels de nettoyage et d'entretien de bâtiments, avec un engagement envers la qualité, la fiabilité et la satisfaction client. Chaque projet reflète notre passion pour l'excellence.",
+      en: "Pro Master Cleaning provides professional cleaning and building maintenance services with a commitment to quality, reliability, and customer satisfaction. Every project reflects our passion for excellence.",
+      fr: "Pro Master Cleaning offre des services professionnels de nettoyage et d'entretien de bâtiments, avec un engagement envers la qualité, la fiabilité et la satisfaction client. Chaque projet reflète notre passion pour l'excellence.",
     },
     ourServicesBtn: { en: "Our Services", fr: "Nos Services" },
   },
@@ -70,8 +70,8 @@ const translations = {
     heading1: { en: "Building Cleaner", fr: "Créer des Espaces" },
     heading2: { en: "Spaces Since Day One", fr: "Plus Propres Depuis le Début" },
     para1: {
-      en: "Pro Master was founded with one clear mission — to provide dependable cleaning and building maintenance services that businesses and homeowners can trust. We believe every clean environment creates healthier, happier and more productive spaces for everyone.",
-      fr: "Pro Master a été fondée avec une mission claire — offrir des services de nettoyage et d'entretien de bâtiments fiables, en qui les entreprises et les propriétaires peuvent avoir confiance. Nous croyons qu'un environnement propre crée des espaces plus sains, plus heureux et plus productifs pour tous.",
+      en: "Pro Master Cleaning was founded with one clear mission — to provide dependable cleaning and building maintenance services that businesses and homeowners can trust. We believe every clean environment creates healthier, happier and more productive spaces for everyone.",
+      fr: "Pro Master Cleaning a été fondée avec une mission claire — offrir des services de nettoyage et d'entretien de bâtiments fiables, en qui les entreprises et les propriétaires peuvent avoir confiance. Nous croyons qu'un environnement propre crée des espaces plus sains, plus heureux et plus productifs pour tous.",
     },
     para2: {
       en: "Our experienced team combines modern equipment, eco-friendly practices and attention to detail to deliver exceptional cleaning results every single time.",
@@ -122,8 +122,8 @@ const translations = {
     heading1: { en: "We Deliver", fr: "Nous Offrons" },
     heading2: { en: "More Than Cleaning", fr: "Plus Que du Nettoyage" },
     intro: {
-      en: "Pro Master combines skilled professionals, premium equipment and customer-first service to create clean, healthy and welcoming environments.",
-      fr: "Pro Master combine des professionnels qualifiés, un équipement de qualité supérieure et un service axé sur le client pour créer des environnements propres, sains et accueillants.",
+      en: "Pro Master Cleaning combines skilled professionals, premium equipment and customer-first service to create clean, healthy and welcoming environments.",
+      fr: "Pro Master Cleaning combine des professionnels qualifiés, un équipement de qualité supérieure et un service axé sur le client pour créer des environnements propres, sains et accueillants.",
     },
     feature1Title: { en: "Trusted Professionals", fr: "Professionnels de Confiance" },
     feature1Text: { en: "Experienced, trained and fully committed to delivering exceptional cleaning services.", fr: "Expérimentés, formés et pleinement engagés à offrir des services de nettoyage exceptionnels." },
@@ -177,8 +177,8 @@ const translations = {
     tag: { en: "Industries We Serve", fr: "Secteurs Que Nous Servons" },
     heading: { en: "Trusted Across Multiple Industries", fr: "De Confiance Dans Plusieurs Secteurs" },
     desc: {
-      en: "Pro Master provides reliable cleaning and building maintenance services for organizations of every size across Canada.",
-      fr: "Pro Master offre des services fiables de nettoyage et d'entretien de bâtiments pour des organisations de toutes tailles à travers le Canada.",
+      en: "Pro Master Cleaning provides reliable cleaning and building maintenance services for organizations of every size across Canada.",
+      fr: "Pro Master Cleaning offre des services fiables de nettoyage et d'entretien de bâtiments pour des organisations de toutes tailles à travers le Canada.",
     },
     i1Title: { en: "Corporate Offices", fr: "Bureaux d'Entreprise" },
     i1Text: { en: "Professional cleaning services for office buildings and corporate spaces.", fr: "Services de nettoyage professionnels pour immeubles de bureaux et espaces d'entreprise." },
@@ -209,7 +209,7 @@ const translations = {
       fr: "Notre engagement envers la qualité, la fiabilité et la satisfaction client nous a valu la confiance d'entreprises à travers le Canada.",
     },
     t1Role: { en: "Corporate Office Manager", fr: "Gestionnaire de Bureau d'Entreprise" },
-    t1Review: { en: "Pro Master consistently delivers exceptional cleaning services. Their professionalism and attention to detail have exceeded our expectations.", fr: "Pro Master offre constamment des services de nettoyage exceptionnels. Leur professionnalisme et souci du détail ont dépassé nos attentes." },
+    t1Review: { en: "Pro Master Cleaning consistently delivers exceptional cleaning services. Their professionalism and attention to detail have exceeded our expectations.", fr: "Pro Master Cleaning offre constamment des services de nettoyage exceptionnels. Leur professionnalisme et souci du détail ont dépassé nos attentes." },
     t2Role: { en: "Healthcare Facility Director", fr: "Directrice d'Établissement de Santé" },
     t2Review: { en: "Reliable, responsive, and highly professional. Our facility has never looked cleaner. We highly recommend their team.", fr: "Fiables, réactifs et très professionnels. Notre établissement n'a jamais été aussi propre. Nous recommandons vivement leur équipe." },
     t3Role: { en: "Retail Operations Manager", fr: "Gestionnaire des Opérations de Détail" },
@@ -219,8 +219,8 @@ const translations = {
     tag: { en: "Why Choose Us", fr: "Pourquoi Nous Choisir" },
     heading: { en: "Excellence You Can Trust", fr: "Une Excellence en Qui Vous Pouvez Avoir Confiance" },
     desc: {
-      en: "Pro Master is committed to delivering reliable cleaning and building maintenance services with professionalism, quality, and customer satisfaction at the heart of everything we do.",
-      fr: "Pro Master s'engage à offrir des services fiables de nettoyage et d'entretien de bâtiments, avec le professionnalisme, la qualité et la satisfaction client au cœur de tout ce que nous faisons.",
+      en: "Pro Master Cleaning is committed to delivering reliable cleaning and building maintenance services with professionalism, quality, and customer satisfaction at the heart of everything we do.",
+      fr: "Pro Master Cleaning s'engage à offrir des services fiables de nettoyage et d'entretien de bâtiments, avec le professionnalisme, la qualité et la satisfaction client au cœur de tout ce que nous faisons.",
     },
     f1Title: { en: "Trusted & Reliable", fr: "Fiable et Digne de Confiance" },
     f1Text: { en: "We build long-term partnerships through honesty, consistency, and dependable service.", fr: "Nous bâtissons des partenariats durables grâce à l'honnêteté, la constance et un service fiable." },
@@ -247,8 +247,8 @@ const translations = {
     heading1: { en: "Professional Cleaning &", fr: "Nettoyage Professionnel &" },
     heading2: { en: "Building Maintenance", fr: "Entretien de Bâtiments" },
     para1: {
-      en: "At Pro Master, we provide reliable commercial and residential cleaning solutions tailored to your needs. Our experienced team uses modern equipment and eco-friendly products to ensure every space is clean, safe, and welcoming.",
-      fr: "Chez Pro Master, nous offrons des solutions de nettoyage commercial et résidentiel fiables, adaptées à vos besoins. Notre équipe expérimentée utilise des équipements modernes et des produits écologiques pour garantir des espaces propres, sûrs et accueillants.",
+      en: "At Pro Master Cleaning, we provide reliable commercial and residential cleaning solutions tailored to your needs. Our experienced team uses modern equipment and eco-friendly products to ensure every space is clean, safe, and welcoming.",
+      fr: "Chez Pro Master Cleaning, nous offrons des solutions de nettoyage commercial et résidentiel fiables, adaptées à vos besoins. Notre équipe expérimentée utilise des équipements modernes et des produits écologiques pour garantir des espaces propres, sûrs et accueillants.",
     },
     para2: {
       en: "Whether you need office cleaning, post-construction cleanup, carpet care, or routine maintenance, our professionals deliver consistent quality with attention to every detail.",
@@ -324,7 +324,7 @@ const translations = {
     },
   },
   whyChooseServices: {
-    tag: { en: "Why Pro Master", fr: "Pourquoi Pro Master" },
+    tag: { en: "Why Pro Master Cleaning", fr: "Pourquoi Pro Master Cleaning" },
     heading1: { en: "Why Clients", fr: "Pourquoi les Clients" },
     heading2: { en: "Choose Our Services", fr: "Choisissent Nos Services" },
     intro: {
@@ -348,8 +348,8 @@ const translations = {
     heading1: { en: "Let's Make Your", fr: "Faisons Briller Votre" },
     heading2: { en: "Workplace Shine", fr: "Lieu de Travail" },
     desc: {
-      en: "Whether you need commercial cleaning, residential services, or complete building maintenance, Pro Master is ready to deliver reliable, high-quality solutions tailored to your needs.",
-      fr: "Que vous ayez besoin de nettoyage commercial, de services résidentiels ou d'entretien complet de bâtiments, Pro Master est prêt à offrir des solutions fiables et de haute qualité adaptées à vos besoins.",
+      en: "Whether you need commercial cleaning, residential services, or complete building maintenance, Pro Master Cleaning is ready to deliver reliable, high-quality solutions tailored to your needs.",
+      fr: "Que vous ayez besoin de nettoyage commercial, de services résidentiels ou d'entretien complet de bâtiments, Pro Master Cleaning est prêt à offrir des solutions fiables et de haute qualité adaptées à vos besoins.",
     },
     getFreeQuoteBtn: { en: "Get Free Quote", fr: "Devis Gratuit" },
     callNowBtn: { en: "Call Now", fr: "Appelez Maintenant" },
@@ -371,7 +371,7 @@ const translations = {
       en: "Fill out the form below and our team will get back to you as soon as possible.",
       fr: "Remplissez le formulaire ci-dessous et notre équipe vous répondra dès que possible.",
     },
-    whyTitle: { en: "Why Contact Pro Master?", fr: "Pourquoi Contacter Pro Master?" },
+    whyTitle: { en: "Why Contact Pro Master Cleaning?", fr: "Pourquoi Contacter Pro Master Cleaning?" },
     whyDesc: {
       en: "Whether you need commercial cleaning, residential cleaning, or complete building maintenance, we're here to provide reliable solutions tailored to your business.",
       fr: "Que vous ayez besoin de nettoyage commercial, résidentiel ou d'entretien complet de bâtiments, nous offrons des solutions fiables adaptées à votre entreprise.",
@@ -405,8 +405,8 @@ const translations = {
     heading1: { en: "Ready For A", fr: "Prêt Pour un" },
     heading2: { en: "Cleaner Tomorrow?", fr: "Avenir Plus Propre?" },
     desc: {
-      en: "Whether you need commercial cleaning, residential cleaning, or complete building maintenance, Pro Master is here to provide dependable, professional, and high-quality services tailored to your needs.",
-      fr: "Que vous ayez besoin de nettoyage commercial, résidentiel ou d'entretien complet, Pro Master est là pour offrir des services fiables, professionnels et de haute qualité adaptés à vos besoins.",
+      en: "Whether you need commercial cleaning, residential cleaning, or complete building maintenance, Pro Master Cleaning is here to provide dependable, professional, and high-quality services tailored to your needs.",
+      fr: "Que vous ayez besoin de nettoyage commercial, résidentiel ou d'entretien complet, Pro Master Cleaning est là pour offrir des services fiables, professionnels et de haute qualité adaptés à vos besoins.",
     },
     requestQuoteBtn: { en: "Request Free Quote", fr: "Demander un Devis Gratuit" },
     callUsNowBtn: { en: "Call Us Now", fr: "Appelez-Nous Maintenant" },
@@ -418,7 +418,7 @@ const translations = {
       en: "Stop by our office or schedule an appointment. We look forward to meeting you and discussing your cleaning needs.",
       fr: "Passez à notre bureau ou prenez rendez-vous. Nous avons hâte de vous rencontrer et de discuter de vos besoins.",
     },
-    officeName: { en: "Pro Master", fr: "Pro Master" },
+    officeName: { en: "Pro Master Cleaning", fr: "Pro Master Cleaning" },
     easyNav: { en: "Easy Navigation", fr: "Navigation Facile" },
     freeParking: { en: "Free Visitor Parking", fr: "Stationnement Visiteur Gratuit" },
     getDirectionsBtn: { en: "Get Directions", fr: "Obtenir l'Itinéraire" },
@@ -427,7 +427,7 @@ const translations = {
     tag: { en: "FAQ", fr: "FAQ" },
     heading: { en: "Frequently Asked Questions", fr: "Questions Fréquemment Posées" },
     desc: {
-      en: "Find quick answers to some of the most common questions our clients ask before choosing Pro Master.",
+      en: "Find quick answers to some of the most common questions our clients ask before choosing Pro Master Cleaning.",
       fr: "Trouvez rapidement des réponses aux questions les plus fréquemment posées par nos clients.",
     },
     q1: { en: "What cleaning services do you provide?", fr: "Quels services de nettoyage offrez-vous?" },
@@ -449,8 +449,8 @@ const translations = {
     email: { en: "[Insert email]", fr: "[Insérer email]" },
 
     companyDesc: {
-      en: "Pro Master provides dependable cleaning and building maintenance services with professionalism, reliability, and excellence across Calgary and surrounding areas.",
-      fr: "Pro Master offre des services fiables de nettoyage et d'entretien de bâtiments avec professionnalisme, fiabilité et excellence à Calgary et dans les régions environnantes.",
+      en: "Pro Master Cleaning provides dependable cleaning and building maintenance services with professionalism, reliability, and excellence across Calgary and surrounding areas.",
+      fr: "Pro Master Cleaning offre des services fiables de nettoyage et d'entretien de bâtiments avec professionnalisme, fiabilité et excellence à Calgary et dans les régions environnantes.",
     },
 
     businessHoursTitle: { en: "Business Hours", fr: "Heures d'ouverture" },
@@ -483,7 +483,7 @@ const translations = {
     addressLine2: { en: "Calgary, Alberta", fr: "Calgary, Alberta" },
     addressLine3: { en: "Canada", fr: "Canada" },
 
-    copyright: { en: "© 2026 Pro Master. All Rights Reserved.", fr: "© 2026 Pro Master. Tous droits réservés." },
+    copyright: { en: "© 2026 Pro Master Cleaning. All Rights Reserved.", fr: "© 2026 Pro Master Cleaning. Tous droits réservés." },
     designedWith: { en: "Designed with professionalism & care.", fr: "Conçu avec professionnalisme et attention." },
   },
 };
